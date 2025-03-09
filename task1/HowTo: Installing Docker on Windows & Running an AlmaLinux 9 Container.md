@@ -10,7 +10,7 @@ Docker is a powerfull tool that makes it easy to create lightweight, portable, a
 ## Install Docker on Windows
 1 Download Docker Desktop
   - Go to the Docker Desktop for Windows page.
-  - Click Download for Windows (WSL 2).
+  - Click Download for Windows. (images/Download_Docker.png)
   - Once downloaded, run the installer.
 
 2 Install and Configure
