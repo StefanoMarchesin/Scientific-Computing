@@ -7,8 +7,22 @@ Docker is a powerfull tool that makes it easy to create lightweight, portable, a
 >[!NOTE]
 >This guide doesn't replace the [official one](https://docs.docker.com/desktop/setup/install/windows-install/). It's just shorter.
 
-## setup
+## Before installing
+Windows Subsistem for Linux 2 (WSL2) is a feature of Windows that allows you to run a Linux environment on your Windows machine without the need to use a virtual machine. 
 
+1. Install or update WSL
+   ```powershell
+   wsl --install
+   ```
+   ```powershell
+   wsl --update
+   ```  
+2. Be sure that the active version is 2
+   ```powershell
+   wsl.exe --set-default-version 2
+   ```
+3. Restart the pc
+   
 ## Install Docker on Windows
 1 Download Docker Desktop
   - Go to the [Docker Desktop page](https://www.docker.com)
