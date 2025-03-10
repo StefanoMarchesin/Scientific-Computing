@@ -26,7 +26,7 @@ Windows Subsistem for Linux 2 (WSL2) is a feature of Windows that allows you to 
 ## Install Docker
 1 Download Docker Desktop
   - Go to the [Docker Desktop page](https://www.docker.com)
-  - Click Download for Windows ![image](images/Download_Docker.png)
+  - Click Download for Windows ![image1](images/Download_Docker.png)
 
 2. Install Docker
   - Run the installer
@@ -48,7 +48,7 @@ Windows Subsistem for Linux 2 (WSL2) is a feature of Windows that allows you to 
     
 ## Run AlmaLinux 9 container
 1. Install almalinux
-   - Open Docker terminal [image]()
+   - Open Docker terminal ![image2](images/terminal.PNG)
    - Write
      ```powershell
      docker pull almalinux:9
