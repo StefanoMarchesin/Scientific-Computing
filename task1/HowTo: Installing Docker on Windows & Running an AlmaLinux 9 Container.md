@@ -23,14 +23,36 @@ Windows Subsistem for Linux 2 (WSL2) is a feature of Windows that allows you to 
    ```
 3. Restart the pc
    
-## Install Docker on Windows
+## Install Docker
 1 Download Docker Desktop
   - Go to the [Docker Desktop page](https://www.docker.com)
   - Click Download for Windows ![image](images/Download_Docker.png)
-  - Once downloaded, run the installer
 
-2 Install and Configure
-  - Follow the installer prompts.
-  - During installation, make sure:
-    Use WSL 2 instead of Hyper-V is checked.
-  - Complete the installation and restart your PC if prompted.
+2. Install Docker
+  - Run the installer
+  - Follow the installer prompts
+  - Be sure to select “Use WSL 2 instead of Hyper-V”
+  - Restart the pc
+
+3. Start Docker
+   - Verify the Docker version from Windows powershell
+    ```powershell
+    docker --version
+    ```
+    Should be something like
+    ```powershell
+    Docker version 28.x.x, build xxxxxx
+    ```
+  - Launch docker
+  - Accept the license agreement
+    
+## Run AlmaLinux 9 container
+1. Install almalinux
+   - Open Docker terminal [image]()
+   - Write
+     ```powershell
+     docker pull almalinux:9
+     ```
+   
+
+
