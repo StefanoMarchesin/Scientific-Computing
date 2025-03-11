@@ -47,12 +47,25 @@ Windows Subsistem for Linux 2 (WSL2) is a feature of Windows that allows you to 
   - Accept the license agreement
     
 ## Run AlmaLinux 9 container
-1. Install almalinux
-   - Open Docker terminal ![image2](images/terminal.PNG)
-   - Write
+1. Install AlmaLinux
+   - Open the terminal on Docker ![image2](images/terminal.PNG)
+   - Install AlmaLinux 9
      ```powershell
      docker pull almalinux:9
      ```
-   
+2. Create an Almalinux container
+   - To create a container called <container_name> write on the terminal
+     ```powershell
+     docker run -it --name <container_name> almalinux:9 /bash
+     ```
+   - Start the container
+     ```powershell
+     start -i <container_name>
+     ```
+   - For closing the container
+     ```powershell
+     exit
+     ```
 
-
+## Conclusion
+Congratulation now you have a working AlmaLinux envairoment in Windows.
