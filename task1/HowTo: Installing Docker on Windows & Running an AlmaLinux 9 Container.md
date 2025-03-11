@@ -58,7 +58,7 @@ Windows Subsistem for Linux 2 (WSL2) is a feature of Windows that allows you to 
      ```powershell
      docker run -it --name <container_name> almalinux:9 /bash
      ```
-   - Start the container
+   - For starting a container
      ```powershell
      start -i <container_name>
      ```
